@@ -32,7 +32,7 @@ const server = http.createServer(async (req, res) => {
     res.setHeader("Content-Type", "application/json");
     sendJSONResponse(res, 404, {
       error: "not found",
-      message: "The requested route does not exist",
+      message: "The requested route does not exist!",
     });
   }
 });
